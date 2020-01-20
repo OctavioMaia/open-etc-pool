@@ -15,30 +15,30 @@ module.exports = function(environment) {
 
     APP: {
       // PoolName
-      PoolName: 'Ethereum Classic',
+      PoolName: 'CryptoGunas Pool',
       // PoolTitle
-      PoolTitle: 'Open Ethereum Classic Pool',
+      PoolTitle: 'CryptoGunas Ethereum Classic Pool',
       // API host and port
-      ApiUrl: '//example.net/',
+      ApiUrl: '//cryptogunas.dynu.net/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://example.net',
+      HttpHost: 'http://cryptogunas.dynu.net',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'example.net',
+      StratumHost: 'cryptogunas.dynu.net',
       StratumPort: 8008,
 
       // Fee and payout details
-      PoolFee: '1%',
+      PoolFee: '0%',
       PayoutThreshold: '0.5',
       PayoutInterval: '10m',
       Unit: 'ETC',
       EtherUnit: 'ETC',
 
       // For network hashrate (change for your favourite fork)
-      BlockExplorerLink: 'https://gastracker.io',
-      BlockExplorerAddrLink: 'https://gastracker.io/addr',
+      BlockExplorerLink: 'https://etcblockexplorer.com',
+      BlockExplorerAddrLink: 'https://etcblockexplorer.com/tx',
       BlockReward: 4,
       BlockUnlockDepth: 120,
       BlockTime: 14.4,
